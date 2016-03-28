@@ -81,8 +81,9 @@ html, body{
  /* HEADER */
  header {
    color:#FFFFFF;
-   background: #F7B733;
-   background-image: linear-gradient(206deg, rgba(247,183,51,0.50) 0%, #F7B733 94%);
+
+background: #F7B733;
+background-image: linear-gradient(-46deg, rgba(247,183,51,0.50) 0%, #F0C368 100%);
  }
  header nav {
    padding:1em 0;
