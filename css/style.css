@@ -81,7 +81,6 @@ html, body{
  /* HEADER */
  header {
    color:#FFFFFF;
-
 background: #F7B733;
 background-image: linear-gradient(-46deg, rgba(247,183,51,0.50) 0%, #F0C368 100%);
  }
@@ -89,13 +88,13 @@ background-image: linear-gradient(-46deg, rgba(247,183,51,0.50) 0%, #F0C368 100%
    padding:1em 0;
  }
  header nav ul {
-   display:inline;
+ display:inline;
    text-align: right;
    float:right;
    margin:0;
  }
  header nav ul > li {
-   list-style-type: none;
+ list-style-type: none;
    display: inline-block;
    margin:0 15px;
  }
@@ -108,6 +107,7 @@ background-image: linear-gradient(-46deg, rgba(247,183,51,0.50) 0%, #F0C368 100%
    background:#FFFFFF;
  }
  header nav ul > li > a {
+   font-family: "Unica One";
    color:#FFFFFF;
    text-decoration: none;
  }
