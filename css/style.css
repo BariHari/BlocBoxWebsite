@@ -492,11 +492,41 @@ a:active {
 
 /*Media Queries*/
 
+/* Larger Mobile Devices */
+@media (min-width:460px) {
+ .content {
+   padding:1.5em 1%;
+   float:right;
+   width:90%;
+   position: relative;
+ }
+ .content-item {
+   width:46%;
+   margin:0 2% 25px;
+   float:left;
+   display:block;
+ }
+}
+/* Tablets */
 @media (min-width: 768px) {
   .container {
     width: 750px;
   }
+  .content {
+    padding:1.5em 5%;
+    float:right;
+    width:90%;
+    position: relative;
+  }
+  .content > .container {
+    width:700px;
+  }
+  .content-item {
+    width:31.33333%;
+    margin:0 1% 25px;
+  }
 }
+/* Web Sizes */
 @media (min-width: 992px) {
   .container {
     width: 970px;
@@ -611,37 +641,6 @@ a:active {
   }
 }
 
-/* Larger Mobile Devices */
- @media (min-width:460px) {
-   .content {
-     padding:1.5em 1%;
-     float:right;
-     width:90%;
-     position: relative;
-   }
-   .content-item {
-     width:46%;
-     margin:0 2% 25px;
-     float:left;
-     display:block;
-   }
- }
-/* Tablets */
- @media (min-width:768px) {
-   .content {
-     padding:1.5em 5%;
-     float:right;
-     width:90%;
-     position: relative;
-   }
-   .content > .container {
-     width:700px;
-   }
-   .content-item {
-     width:31.33333%;
-     margin:0 1% 25px;
-   }
- }
 
 
 /* Settings Dropit */
