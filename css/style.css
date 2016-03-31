@@ -293,7 +293,7 @@ margin:20px 10px 0 0;
    footer {
      background-color: #6C7A89;
      color: #FFFFFF;
-     height: 150px;
+     height: 200px;
      position: relative;
      overflow: hidden;
      z-index: 0;
@@ -321,8 +321,8 @@ margin:20px 10px 0 0;
  }
 
  footer .logo{
-  padding: 2.35em 0;
-  margin: auto;
+  padding: 1em 0;
+  margin: 0 auto;
   display: block;
 }
 
@@ -546,7 +546,6 @@ a:active {
   footer{
     background-color: #6C7A89;
     height: 100px;
-
   }
   footer p, footer nav ul{
     padding: 2em 0;
@@ -554,10 +553,9 @@ a:active {
   }
   footer .right-footer-block {
     background-color: #576370;
-    float:right;
   }
   footer .logo{
-    padding: 2em 8em 8em 1em;
+    padding: 1em 8em 8em 1em;
   }
   .left-nav {
     height: 100vh;
