@@ -293,7 +293,7 @@ margin:20px 10px 0 0;
    footer {
      background-color: #6C7A89;
      color: #FFFFFF;
-     height: 150px;
+     height: 200px;
      position: relative;
      overflow: hidden;
      z-index: 0;
@@ -321,8 +321,8 @@ margin:20px 10px 0 0;
  }
 
  footer .logo{
-  padding: 2.35em 0;
-  margin: auto;
+  padding: 1em 0;
+  margin: 0 auto;
   display: block;
 }
 
@@ -492,11 +492,41 @@ a:active {
 
 /*Media Queries*/
 
+/* Larger Mobile Devices */
+@media (min-width:460px) {
+ .content {
+   padding:1.5em 1%;
+   float:right;
+   width:90%;
+   position: relative;
+ }
+ .content-item {
+   width:46%;
+   margin:0 2% 25px;
+   float:left;
+   display:block;
+ }
+}
+/* Tablets */
 @media (min-width: 768px) {
   .container {
     width: 750px;
   }
+  .content {
+    padding:1.5em 5%;
+    float:right;
+    width:90%;
+    position: relative;
+  }
+  .content > .container {
+    width:700px;
+  }
+  .content-item {
+    width:31.33333%;
+    margin:0 1% 25px;
+  }
 }
+/* Web Sizes */
 @media (min-width: 992px) {
   .container {
     width: 970px;
@@ -516,7 +546,6 @@ a:active {
   footer{
     background-color: #6C7A89;
     height: 100px;
-
   }
   footer p, footer nav ul{
     padding: 2em 0;
@@ -524,10 +553,9 @@ a:active {
   }
   footer .right-footer-block {
     background-color: #576370;
-    float:right;
   }
   footer .logo{
-    padding: 2em 8em 8em 1em;
+    padding: 1em 8em 8em 1em;
   }
   .left-nav {
     height: 100vh;
@@ -611,37 +639,6 @@ a:active {
   }
 }
 
-/* Larger Mobile Devices */
- @media (min-width:460px) {
-   .content {
-     padding:1.5em 1%;
-     float:right;
-     width:90%;
-     position: relative;
-   }
-   .content-item {
-     width:46%;
-     margin:0 2% 25px;
-     float:left;
-     display:block;
-   }
- }
-/* Tablets */
- @media (min-width:768px) {
-   .content {
-     padding:1.5em 5%;
-     float:right;
-     width:90%;
-     position: relative;
-   }
-   .content > .container {
-     width:700px;
-   }
-   .content-item {
-     width:31.33333%;
-     margin:0 1% 25px;
-   }
- }
 
 
 /* Settings Dropit */
