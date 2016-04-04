@@ -136,7 +136,7 @@ background-image: linear-gradient(-46deg, rgba(247,183,51,0.50) 0%, #F0C368 100%
 
 }
 .benefits ul {
-  margin: 0 auto;
+  margin-right: 50px;
   padding:4em 0;
 }
 .benefits ul li {
@@ -523,10 +523,6 @@ a:active {
       font-size: 12px;
   }
 
-  .container-footer-nav-block {
-    padding-top: 30px;
-  }
-
   .logo {
     max-width: 100px;
     width: 90px;
@@ -557,7 +553,7 @@ a:active {
    font-size: 12px;
  }
 
- .container-footer-nav-block {
+ .copyright-block {
    padding-top: 30px;
  }
 
