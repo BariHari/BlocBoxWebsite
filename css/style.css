@@ -100,6 +100,7 @@ background-image: linear-gradient(-46deg, rgba(247,183,51,0.50) 0%, #F0C368 100%
   header .hero img {
     display: block;
     margin:3em auto 0;
+    width: auto;
   }
 
   /* BUTTONS */
@@ -129,7 +130,7 @@ background-image: linear-gradient(-46deg, rgba(247,183,51,0.50) 0%, #F0C368 100%
   position:relative;
 }
 .benefits img {
-  margin: 15px 10px 0px 10px;
+  margin: 20px 10px 0px 10px;
 
 }
 .benefits ul {
@@ -495,6 +496,50 @@ a:active {
 /*Media Queries*/
 
 /* Larger Mobile Devices */
+
+/* iPhone 5 */
+@media (min-width:320px) {
+ .content {
+   padding:1.5em 1%;
+   float:right;
+   width:90%;
+   position: relative;
+ }
+ .content-item {
+   width:46%;
+   margin:0 2% 25px;
+   float:left;
+   display:block;
+ }
+ .hero img {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+ }
+
+/* iPhone 6*/
+@media (min-width:375px) {
+ .content {
+   padding:1.5em 1%;
+   float:right;
+   width:90%;
+   position: relative;
+ }
+ .content-item {
+   width:46%;
+   margin:0 2% 25px;
+   float:left;
+   display:block;
+ }
+ .hero img {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+ }
+
+
+
+
 @media (min-width:460px) {
  .content {
    padding:1.5em 1%;
@@ -508,7 +553,13 @@ a:active {
    float:left;
    display:block;
  }
-}
+ .hero img {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+ }
+
+
 /* Tablets */
 @media (min-width: 768px) {
   .container {
