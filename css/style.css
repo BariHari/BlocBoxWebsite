@@ -40,7 +40,7 @@ html, body{
    float:left;
    position:relative;
    min-height: 1px;
-   margin:0 2% 20px;
+   margin:0 2% 10px;
  }
 
  /* HEADER */
@@ -303,6 +303,7 @@ margin:20px 10px 0 0;
      z-index: 0;
 }
 
+
     footer p, footer nav ul {
       font-size:14px;
       font-weight:100;
@@ -522,6 +523,17 @@ a:active {
       font-size: 12px;
   }
 
+  .container-footer-nav-block {
+    padding-top: 30px;
+  }
+
+  .logo {
+    max-width: 100px;
+    width: 90px;
+    height: auto;
+    margin-bottom: 20px;
+  }
+
 /* iPhone 6*/
 @media (min-width:375px) {
  .content {
@@ -545,6 +557,16 @@ a:active {
    font-size: 12px;
  }
 
+ .container-footer-nav-block {
+   padding-top: 30px;
+ }
+
+ .logo {
+   max-width: 130px;
+   width: 150px;
+   height: auto;
+   margin-bottom: 20px;
+ }
 
 
 
