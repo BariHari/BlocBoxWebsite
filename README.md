@@ -1,5 +1,6 @@
 blocbox by Saleena Beharry
 ==========================
 
-barihari.github.io/index.html
-barihari.github.io/dashboard.html
+[Homepage](barihari.github.io/index.html)
+
+[Dashboard](barihari.github.io/dashboard.html)
