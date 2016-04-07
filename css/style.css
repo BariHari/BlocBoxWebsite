@@ -87,13 +87,13 @@ background-image: linear-gradient(-46deg, rgba(247,183,51,0.50) 0%, #F0C368 100%
     position: relative;
   }
   header .hero h1 {
-    font-size:48px;
+    font-size:24px;
     font-weight: normal;
-    margin:95px 0 0;
+    margin:30px 0 0;
     padding: 10px;
   }
   header .hero p {
-    font-size: 22px;
+    font-size: 18px;
     line-height: 26px;
     font-weight: 100;
     margin:10px 0 40px;
@@ -104,6 +104,23 @@ background-image: linear-gradient(-46deg, rgba(247,183,51,0.50) 0%, #F0C368 100%
     margin:3em auto 0;
     width: auto;
   }
+
+  .hero img {
+     max-width: 100%;
+     width: 100%;
+     height: auto;
+  }
+
+   .logo {
+     max-width: 100px;
+     width: 90px;
+     height: auto;
+     margin-bottom: 20px;
+   }
+
+   .box {
+     margin: 15px;
+   }
 
   /* BUTTONS */
 .btn {
@@ -136,7 +153,6 @@ background-image: linear-gradient(-46deg, rgba(247,183,51,0.50) 0%, #F0C368 100%
 
 }
 .benefits ul {
-  margin-right: 50px;
   padding:4em 0;
 }
 .benefits ul li {
@@ -470,6 +486,13 @@ a:active {
    margin-right:10px;
    margin-top:8px;
   }
+  .content {
+    padding:1.5em 1%;
+    float:right;
+    width:90%;
+    position: relative;
+  }
+
   .content .header {
    margin:0 1% 20px;
   }
@@ -486,6 +509,7 @@ a:active {
   .content .header > a {
    float:right;
 }
+
 .content-item {
    width:96%;
    margin:0 2% 25px;
@@ -505,40 +529,6 @@ a:active {
 /*Media Queries*/
 
 /* Larger Mobile Devices */
-
-/* iPhone 5 */
-@media (min-width:320px) {
- .content {
-   padding:1.5em 1%;
-   float:right;
-   width:90%;
-   position: relative;
- }
- .content-item {
-   width:46%;
-   margin:0 2% 25px;
-   float:left;
-   display:block;
- }
- .hero img {
-    max-width: 100%;
-    width: 100%;
-    height: auto;
- }
- .hero h1 {
-      font-size: 12px;
-  }
-
-  .logo {
-    max-width: 100px;
-    width: 90px;
-    height: auto;
-    margin-bottom: 20px;
-  }
-
-  .box {
-    margin: 15px;
-  }
 
 /* iPhone 6*/
 @media (min-width:375px) {
@@ -570,13 +560,18 @@ a:active {
  .logo {
    max-width: 130px;
    width: 150px;
-   height: auto;
-   margin-bottom: 20px;
  }
 
 
 
 @media (min-width:460px) {
+  header .hero h1 {
+    font-size:36px;
+    margin-top: 50px;
+  }
+  header .hero p {
+    font-size: 22px;
+  }
  .content {
    padding:1.5em 1%;
    float:right;
@@ -598,6 +593,10 @@ a:active {
 
 /* Tablets */
 @media (min-width: 768px) {
+  header .hero h1 {
+    font-size:48px;
+    margin-top: 95px;
+  }
   .container {
     width: 750px;
   }
@@ -631,6 +630,10 @@ a:active {
   }
   .one-fourth {
     width:21%;
+  }
+  .benefits ul {
+    margin-right: 50px;
+    margin-left: 50px;
   }
   footer{
     background-color: #6C7A89;
