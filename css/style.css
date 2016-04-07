@@ -478,6 +478,12 @@ a:active {
 }
 */
 
+.items ul li a:hover {
+  background-color: #4ABDAC;
+  padding: 5px
+}
+
+
  /* CONTENT */
   .left-nav .settings a {
    color:#FFFFFF;
