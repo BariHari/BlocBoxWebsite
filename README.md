@@ -5,4 +5,4 @@ blocbox by Saleena Beharry
 
 [Dashboard](barihari.github.io/dashboard.html)
 
-index.html
+[Homepage](index.html)
