@@ -1,8 +1,7 @@
 blocbox by Saleena Beharry
 ==========================
 
-[Home Page](barihari.github.io/index.html)
 
-[Dashboard](barihari.github.io/dashboard.html)
+[Home page](index.html)
 
-[Homepage](index.html)
+[Dashboard](dashboard.html)
