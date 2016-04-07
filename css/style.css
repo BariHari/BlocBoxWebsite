@@ -471,11 +471,12 @@ margin:20px 10px 0 0;
  }
 
 /* Active State*/
-
+/*
 a:active {
  background-color: #4ABDAC;
  padding: 10px
 }
+*/
 
  /* CONTENT */
   .left-nav .settings a {
