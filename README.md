@@ -2,6 +2,6 @@ blocbox by Saleena Beharry
 ==========================
 
 
-[Home page](index.html)
+[Homepage](index.html)
 
 [Dashboard](dashboard.html)
